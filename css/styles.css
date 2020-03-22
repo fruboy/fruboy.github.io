@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+}
+
+.Head{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.Blocks{
+    width: 30%;
+    height: 200px;
+    background-color: grey;
+    position: absolute;
+    margin: 50px;
+    border: 2px solid;
+    margin-left: 20px;
+}
+.BAR{
+    float: right;
+    text-align: center;
+    clear: left;
+    padding: 10px;
+    border: 1px solid;
+    font-weight: bold;
+    width: 100px;
+}
+p{
+    padding: 20px;
+}
+
+@media screen and (min-width: 992px){
+    #B1{
+        left: 2%;
+    }
+    #B2{
+        left: 33.5%;
+    }
+    #B3{
+        left: 65%;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 991px){
+    #B1{
+        left: 3.5%;
+        width: 40%;
+    }
+    #B2{
+        left: 45%;
+        width: 40%;
+    }
+    #B3{
+        left: 3.5%;
+        top: 250px;
+        width: 81.5%;
+        height: 130px;
+    }
+}
+@media screen and (max-width: 767px){
+    .Blocks{
+        width: 55%;
+        height: 10%;
+        background-color: grey;
+        margin: 20px;
+        border: 2px solid;
+        margin-left: 20px;
+        position: relative;
+        left: 20%;
+    }
+}
